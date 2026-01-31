@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    font-family: fantasy;
+    background-color: rgb(210, 247, 46);
+    text-align: center;
+    padding: 30px;  
+}
+
+nav a {
+    color: black;
+    margin-right: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover {
+    color: rgb(101, 2, 2);
+}
+
+.index {
+    float: left;
+}
+
+.main-pic {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: beige;
+    color: #333333;
+    width: 100%;
+    margin:auto;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Georgia;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+.two-cols .column {
+   width: 50%;
+}
+
+.three-cols .column {
+    width: 33%;
+}
+
+.column img {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+p {
+    padding: 20px;
+    text-align: justify;
+    hyphens: auto;
+    font-family: helvetica;
+}
+
+footer {
+    font-family: fantasy;
+    background-color: rgb(210, 247, 46);
+    text-align: center;
+    color: rgb(15, 14, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
